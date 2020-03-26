@@ -1,12 +1,17 @@
 import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+import Routes from './routes';
+import GlobalStyle from './styles/global';
 
-      </header>
-    </div>
+const App: React.FC = () => {
+  
+
+  return (
+    <>
+      <Routes />
+      <GlobalStyle />  
+    </>
+    
   );
 }
 
